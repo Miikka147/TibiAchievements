@@ -1,0 +1,41 @@
+.table-sortable{
+    
+    border-style:solid;
+    background-color: #09243f;
+    width:100%;
+    font-family: 'Lora', 'Times New Roman', serif;
+}
+
+.table-sortable th {
+  color:#ffff;
+  background-color: #09243f;
+    cursor: pointer;
+    text-align:center;
+    font-family: 'Lora', 'Times New Roman', serif;
+   
+  }
+  .table-sortable td {
+      text-align:center;
+      font-size:15px;
+      border-style:solid;
+      background-color:#ffff;
+  }
+  
+  .table-sortable .th-sort-asc::after {
+    content: "\25b4";
+  }
+  
+  .table-sortable .th-sort-desc::after {
+    content: "\25be";
+  }
+  
+  .table-sortable .th-sort-asc::after,
+  .table-sortable .th-sort-desc::after {
+    margin-left: 5px;
+  }
+  
+  .table-sortable .th-sort-asc,
+  .table-sortable .th-sort-desc {
+    background-color:rgb(148, 123, 172);
+  }
+  
